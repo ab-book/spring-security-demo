@@ -1,4 +1,4 @@
 
-server:
-  servlet:
-    context-path: /backend
+#server:
+#  servlet:
+#    context-path: /backend
