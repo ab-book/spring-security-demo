@@ -36,10 +36,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         JdbcUserDetailsManager manager = new JdbcUserDetailsManager();
         manager.setDataSource(dataSource);
         if (!manager.userExists("user")) {
-            manager.createUser(User.withUsername("user").password("123").roles("USER").build());
+            manager.createUser(User.withUsername("user").password("123456").roles("USER").build());
         }
         if (!manager.userExists("admin")) {
-            manager.createUser(User.withUsername("admin").password("123").roles("USER", "ADMIN").build());
+            manager.createUser(User.withUsername("admin").password("123456").roles("USER", "ADMIN").build());
         }
         return manager;
     }
