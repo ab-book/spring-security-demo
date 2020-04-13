@@ -1,3 +1,4 @@
+
 spring:
   security:
     user:
@@ -5,4 +6,4 @@ spring:
       password: 123456
 server:
   servlet:
-    context-path: backend
+    context-path: /backend
