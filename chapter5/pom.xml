@@ -8,10 +8,11 @@
         <version>2.2.0.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.blurooo</groupId>
     <artifactId>chapter5</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>chapter5</name>
+
     <description>Demo project for Spring Boot</description>
 
     <properties>

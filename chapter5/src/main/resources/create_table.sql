@@ -1,4 +1,4 @@
-create table `springDemo`.`persistent_logins` (
+create table persistent_logins (
     username varchar(64) not null,
     series varchar(64) primary key,
     token varchar(64) not null,
